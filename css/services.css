@@ -10,6 +10,21 @@
  * @contributors    Lilith Lamber (winter.rituel@gmail.com)
  * @support         help@merkulov.design
  **/
+
+/* my css */
+.logo_media {
+    margin-right: 6px;
+    width: 200px;
+}
+.logo_media img {
+    position: relative;
+    left: -18px;
+}
+/* my css */
+
+
+
+
 * {
     margin: 0;
     padding: 0;
