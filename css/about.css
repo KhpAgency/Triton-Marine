@@ -10,6 +10,14 @@
  * @contributors    Lilith Lamber (winter.rituel@gmail.com)
  * @support         help@merkulov.design
  **/
+
+
+ /* my css */
+ #txt-h{
+    color: #4EA1E5;
+ }
+ /* my css */
+
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +171,7 @@ body {
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     font-family: Poppins,sans-serif;
-    color: #19456b
+    color: #215BA4;
 }
 
 .h1,h1 {
@@ -285,7 +293,7 @@ body {
 
 .btn {
     color: #fff;
-    background: #0f0fb1;
+    background: #215BA4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -314,7 +322,7 @@ body {
     right: 0;
     width: 0;
     height: 100%;
-    background: #00008e;
+    background: #19456b;
     -webkit-transition: width .3s ease-in-out;
     -o-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out
@@ -343,7 +351,7 @@ body {
 
 .btn--split .icon {
     width: 54px;
-    background: #00008e;
+    background: #19456b;
     height: 100%
 }
 
@@ -1228,7 +1236,7 @@ input[type=number] {
     top: 0;
     left: 0;
     padding: 15px 0;
-    background: #00008e
+    background: #215BA4
 }
 
 .header_nav-trigger {
@@ -1521,9 +1529,8 @@ input[type=number] {
     height: 100%;
     top: 0;
     left: 0;
-    background: -o-linear-gradient(315deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
-    background: linear-gradient(135deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
-    z-index: 1
+    background-image: url("../img/1x/1x/Asset-23.png");
+    z-index: 1;
 }
 
 .page .container {
@@ -1664,7 +1671,7 @@ input[type=number] {
     top: -15px;
     right: -15px;
     color: #fff;
-    background: #00008e
+    background: #215BA4
 }
 
 .steps_list-item .main {
@@ -1677,7 +1684,7 @@ input[type=number] {
 }
 
 .steps_list-item--middle .media {
-    color: #00008e
+    color: #215BA4
 }
 
 .steps_list-item--middle .media_number {
@@ -2200,8 +2207,8 @@ input[type=number] {
 }
 
 .footer {
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#0c4e6d 100%);
+    background: linear-gradient(135deg,#215BA4 0,#0c4e6d 100%);
     color: #fff;
     padding: 80px 0 40px
 }

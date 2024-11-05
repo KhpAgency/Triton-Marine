@@ -4,209 +4,207 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Contacts | Rolso</title>
+        <title>Contacts | TMS</title>
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/home/logo-01.png">
         <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
         <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
         <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
 
-        <link rel="stylesheet" href="css/contacts.min.css" />
+        <link rel="stylesheet" href="css/contacts.css" />
     </head>
     <body>
-        <header class="header" data-page="contacts">
+        <header class="header" data-page="home2">
             <div class="header_panel">
-                <div class="container d-flex justify-content-center justify-content-md-between align-items-center">
-                    <span class="header_panel-logo">
-                        <a class="logo d-inline-flex align-items-center" href="index.html">
-                            <span class="logo_media">
-                                <svg width="56px" height="37px" viewBox="0 0 56 37" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Combined Shape</title>
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g fill="currentColor" transform="translate(0.000000, -0.000000)">
-                                            <g transform="translate(0.000000, 0.000000)">
-                                                <path
-                                                    d="M37.9730366,0 L56,18.5 L37.9730366,37 L20.0419919,18.5 L25.8616371,12.5121359 L23.0545408,9.458807 L14.4823984,18.5 L30.1911192,35 L28,37 L23.0545408,32 L18.195333,37 L0,18.5 L18.195333,0 L36.0014273,18.5 L30.1911192,24.6483396 L32.9085797,27.4399418 L41.6203395,18.5 L25.8616371,2.43040321 L28,0 L32.9085797,5.20234095 L37.9730366,0 Z M17.9818927,4.43392989 L4.64144645,18.5147247 L17.9818927,32.5955195 L21.0810871,29.6079919 L10.1321127,18.5 L21.0810871,7.28442361 L17.9818927,4.43392989 Z M37.7101843,4.43392989 L35.2883953,7.44356982 L46.1323481,18.5 L35.2883953,29.7451953 L37.7101843,32 L51.3914285,18.5147247 L37.7101843,4.43392989 Z M28,14.5941371 L24.4227574,18.5 L28,22.3996382 L31.7636086,18.5147247 L28,14.5941371 Z"
-                                                ></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </span>
-                            <span class="logo_text">Rolso</span>
-                        </a>
+              <div
+                class="container d-flex justify-content-center justify-content-md-between align-items-center"
+              >
+                <span class="header_panel-logo">
+                  <a class="logo d-inline-flex align-items-center" href="index.html">
+                    <span class="logo_media">
+                      <img src="img/home/logo-01.png" alt="home logo" style="height: 50px; width: 180px; " srcset="" title="home-title"/>
                     </span>
-                    <div class="header_panel-links">
-                        <a class="header_panel-links_link btn btn--regular" href="calculator.html"> Calculator </a>
-                        <a class="header_panel-links_link btn btn--regular bordered" href="#"> Tracking </a>
-                    </div>
-                </div>
+                  </a>
+                </span>
+                <!-- <div class="header_panel-links">
+                  <a
+                    class="header_panel-links_link btn btn--regular"
+                    href="calculator.html"
+                  >
+                    Calculator
+                  </a>
+                  <a
+                    class="header_panel-links_link btn btn--regular bordered"
+                    href="#"
+                  >
+                    Tracking
+                  </a>
+                </div> -->
+              </div>
             </div>
             <nav class="header_nav">
-                <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between flex-lg-row-reverse">
-                    <a class="header_nav-tel h5" href="tel:+1234567890">+8 (495) 989 20 11</a>
-                    <a
-                        class="header_nav-trigger"
-                        href="#"
-                        id="headerTrigger"
+              <div
+                class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between flex-lg-row-reverse"
+              >
+                <a class="header_nav-tel h5" href="tel:+1234567890"
+                  >123 456 789</a
+                >
+                <a
+                  class="header_nav-trigger"
+                  href="#"
+                  id="headerTrigger"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#headerMenu"
+                  aria-controls="headerMenu"
+                >
+                  <svg
+                    width="100%"
+                    height="100%"
+                    enable-background="new 0 0 32 32"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m29.5625 5.3092h-27.125c-1.06854 0-1.9375.86896-1.9375 1.9375s.86896 1.9375 1.9375 1.9375h27.125c1.06812 0 1.9375-.86896 1.9375-1.9375s-.86938-1.9375-1.9375-1.9375z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="m29.5625 14.0625h-27.125c-1.06854 0-1.9375.86896-1.9375 1.9375s.86896 1.9375 1.9375 1.9375h27.125c1.06812 0 1.9375-.86896 1.9375-1.9375s-.86938-1.9375-1.9375-1.9375z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="m29.562 22.816h-27.125c-1.0685 0-1.9375 0.8689-1.9375 1.9375 0 1.0685 0.86896 1.9375 1.9375 1.9375h27.125c1.0681 0 1.9375-0.86896 1.9375-1.9375 0-1.0686-0.86938-1.9375-1.9375-1.9375z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <div class="header_nav-wrapper collapse" id="headerMenu">
+                  <ul class="header_nav-menu d-flex flex-column flex-lg-row">
+                    <li class="header_nav-menu_item">
+                      <a
+                        class="nav-item nav-link"
+                        href="index2.html"
+                        data-page="contacts"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="header_nav-menu_item">
+                      <a
+                        class="nav-item nav-link"
+                        href="about.html"
+                        data-page="contacts"
+                        >About Us</a
+                      >
+                    </li>
+                    
+                    <li class="header_nav-menu_item dropdown">
+                      <a
+                        class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
+                        href="services.html"
                         data-bs-toggle="collapse"
-                        data-bs-target="#headerMenu"
-                        aria-controls="headerMenu"
-                    >
-                        <svg
-                            width="100%"
-                            height="100%"
-                            enable-background="new 0 0 32 32"
-                            viewBox="0 0 32 32"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="m29.5625 5.3092h-27.125c-1.06854 0-1.9375.86896-1.9375 1.9375s.86896 1.9375 1.9375 1.9375h27.125c1.06812 0 1.9375-.86896 1.9375-1.9375s-.86938-1.9375-1.9375-1.9375z"
-                                fill="currentColor"
-                            />
-                            <path
-                                d="m29.5625 14.0625h-27.125c-1.06854 0-1.9375.86896-1.9375 1.9375s.86896 1.9375 1.9375 1.9375h27.125c1.06812 0 1.9375-.86896 1.9375-1.9375s-.86938-1.9375-1.9375-1.9375z"
-                                fill="currentColor"
-                            />
-                            <path
-                                d="m29.562 22.816h-27.125c-1.0685 0-1.9375 0.8689-1.9375 1.9375 0 1.0685 0.86896 1.9375 1.9375 1.9375h27.125c1.0681 0 1.9375-0.86896 1.9375-1.9375 0-1.0686-0.86938-1.9375-1.9375-1.9375z"
-                                fill="currentColor"
-                            />
-                        </svg>
-                    </a>
-                    <div class="header_nav-wrapper collapse" id="headerMenu">
-                        <ul class="header_nav-menu d-flex flex-column flex-lg-row">
-                            <li class="header_nav-menu_item dropdown">
-                                <a
-                                    class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
-                                    href="index.html"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#homeMenu"
-                                    data-trigger="dropdown"
-                                    aria-expanded="false"
-                                    aria-controls="homeMenu"
-                                    data-page="home"
-                                >
-                                    Home
-                                    <i class="icon-caret-down-solid icon"></i>
-                                </a>
-                                <div class="dropdown-menu collapse" id="homeMenu">
-                                    <ul class="dropdown-list">
-                                        <li class="list-item" data-main="true">
-                                            <a class="dropdown-item nav-item" data-page="home" href="index.html" data-main="true"> Home </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="home2" href="index2.html"> Home 2 </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="home3" href="index3.html"> Home 3 </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="header_nav-menu_item dropdown">
-                                <a
-                                    class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
-                                    href="about.html"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#aboutMenu"
-                                    data-trigger="dropdown"
-                                    aria-expanded="false"
-                                    aria-controls="aboutMenu"
-                                    data-page="about"
-                                >
-                                    About
-                                    <i class="icon-caret-down-solid icon"></i>
-                                </a>
-                                <div class="dropdown-menu collapse" id="aboutMenu">
-                                    <ul class="dropdown-list">
-                                        <li class="list-item" data-main="true">
-                                            <a class="dropdown-item nav-item" data-page="about" href="about.html" data-main="true">
-                                                About
-                                            </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="quote" href="quote.html"> Quote </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="warehouse" href="warehouse.html"> Warehouse </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="faq" href="faq.html"> FAQs </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="prices" href="prices.html"> Prices </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" href="404.html"> 404 </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="header_nav-menu_item dropdown">
-                                <a
-                                    class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
-                                    href="services.html"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#servicesMenu"
-                                    data-trigger="dropdown"
-                                    aria-expanded="false"
-                                    aria-controls="servicesMenu"
-                                    data-page="services"
-                                >
-                                    Services
-                                    <i class="icon-caret-down-solid icon"></i>
-                                </a>
-                                <div class="dropdown-menu collapse" id="servicesMenu">
-                                    <ul class="dropdown-list">
-                                        <li class="list-item" data-main="true">
-                                            <a class="dropdown-item nav-item" data-page="services" href="services.html" data-main="true">
-                                                Services
-                                            </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="service" href="service.html"> Single service </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="projects" href="projects.html"> Projects </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="calculator" href="calculator.html"> Calculator </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="header_nav-menu_item dropdown">
-                                <a
-                                    class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
-                                    href="blog.html"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#blogMenu"
-                                    data-trigger="dropdown"
-                                    aria-expanded="false"
-                                    aria-controls="blogMenu"
-                                    data-page="blog"
-                                >
-                                    Blog
-                                    <i class="icon-caret-down-solid icon"></i>
-                                </a>
-                                <div class="dropdown-menu collapse" id="blogMenu">
-                                    <ul class="dropdown-list">
-                                        <li class="list-item" data-main="true">
-                                            <a class="dropdown-item nav-item" data-page="blog" href="blog.html" data-main="true"> Blog </a>
-                                        </li>
-                                        <li class="list-item">
-                                            <a class="dropdown-item nav-item" data-page="post" href="post.html"> Single post </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="header_nav-menu_item">
-                                <a class="nav-item nav-link" href="contacts.html" data-page="contacts">Contacts</a>
-                            </li>
+                        data-bs-target="#servicesMenu"
+                        data-trigger="dropdown"
+                        aria-expanded="false"
+                        aria-controls="servicesMenu"
+                        data-page="services"
+                      >
+                        Services
+                        <i class="icon-caret-down-solid icon"></i>
+                      </a>
+                      <div class="dropdown-menu collapse" id="servicesMenu">
+                        <ul class="dropdown-list">
+                          <li class="list-item" data-main="true">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="services"
+                              href="services.html"
+                              data-main="true"
+                            >
+                              Services
+                            </a>
+                          </li>
+                          <li class="list-item">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="service"
+                              href="service.html"
+                            >
+                            Thorough Inspections
+                            </a>
+                          </li>
+                          <li class="list-item">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="projects"
+                              href="projects.html"
+                            >
+                            Expert Maintenance
+                            </a>
+                          </li>
+                          <li class="list-item">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="calculator"
+                              href="calculator.html"
+                            >
+                            Customized Solutions
+                            </a>
+                          </li>
                         </ul>
-                    </div>
+                      </div>
+                    </li>
+                    <!-- blog section -->
+                    <!-- <li class="header_nav-menu_item dropdown">
+                      <a
+                        class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center"
+                        href="blog.html"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#blogMenu"
+                        data-trigger="dropdown"
+                        aria-expanded="false"
+                        aria-controls="blogMenu"
+                        data-page="blog"
+                      >
+                        Blog
+                        <i class="icon-caret-down-solid icon"></i>
+                      </a>
+                      <div class="dropdown-menu collapse" id="blogMenu">
+                        <ul class="dropdown-list">
+                          <li class="list-item" data-main="true">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="blog"
+                              href="blog.html"
+                              data-main="true"
+                            >
+                              Blog
+                            </a>
+                          </li>
+                          <li class="list-item">
+                            <a
+                              class="dropdown-item nav-item"
+                              data-page="post"
+                              href="post.html"
+                            >
+                              Single post
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li> -->
+                    <li class="header_nav-menu_item">
+                      <a
+                        class="nav-item nav-link"
+                        href="contacts.html"
+                        data-page="contacts"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </nav>
-        </header>
+          </header>
 
         <header class="page">
             <div class="page_overlay"></div>
@@ -236,6 +234,39 @@
                     <ul class="contact_data">
                         <li class="contact_data-item">
                             <span class="media">
+                                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M27.5 37C28.3279 37 29 37.6721 29 38.5C29 39.3279 28.3279 40 27.5 40C26.6721 40 26 39.3279 26 38.5C26 37.6721 26.6721 37 27.5 37Z"
+                                        fill="currentColor"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M57.6327 52.001L71.6952 69.7198C72.0309 70.1422 72.0946 70.7195 71.86 71.2051C71.6255 71.6913 71.1333 72 70.5938 72H1.40639C0.866966 72 0.374779 71.6913 0.140221 71.2051C-0.0948868 70.7195 -0.0306168 70.1422 0.305016 69.7198L14.3675 52.001C14.6339 51.6649 15.0399 51.4688 15.4689 51.4688H27.7873L17.2706 34.9739C14.8037 31.2753 13.5001 26.9621 13.5001 22.5C13.5001 10.0937 23.5933 0 36.0001 0C48.407 0 58.5001 10.0937 58.5001 22.5C58.5001 26.9621 57.1966 31.2748 54.7296 34.9739L44.2129 51.4688H56.5314C56.9604 51.4688 57.3658 51.6649 57.6327 52.001ZM62.8831 63.1406H54.3802L59.1791 69.1875H67.6825L62.8831 63.1406ZM38.5643 60.3281L42.4194 54.2812H43.7581L48.5575 60.3281H38.5643ZM29.5803 54.2812H28.2416L23.4428 60.3281H33.4354L29.5803 54.2812ZM16.4115 69.1875L21.2103 63.1406H50.7894L55.5887 69.1875H16.4115ZM12.8206 69.1875L17.62 63.1406H9.1166L4.31777 69.1875H12.8206ZM19.8519 60.3281H11.349L16.1478 54.2812H24.6512L19.8519 60.3281ZM52.3818 33.4248C54.5445 30.1871 55.6876 26.4095 55.6876 22.5C55.6876 11.6444 46.8557 2.8125 36.0001 2.8125C25.1445 2.8125 16.3126 11.6444 16.3126 22.5C16.3126 26.4095 17.4558 30.1871 19.6179 33.4248C19.6219 33.4303 19.6254 33.4358 19.629 33.4413L19.6343 33.4495C20.5577 34.8981 35.2888 58.0034 36.0001 59.1185C37.7892 56.3121 50.5438 36.3071 52.3659 33.4495C52.3692 33.444 52.3727 33.4386 52.3763 33.4331C52.3781 33.4303 52.38 33.4276 52.3818 33.4248ZM52.1478 60.3281L47.349 54.2812H55.8518L60.6512 60.3281H52.1478Z"
+                                        fill="currentColor"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M22 22C22 29.776 28.3142 36 36 36C43.6836 36 50 29.7782 50 22C50 14.2803 43.7197 8 36 8C28.2803 8 22 14.2803 22 22ZM24.8 22C24.8 15.8241 29.8241 10.8 36 10.8C42.1759 10.8 47.2 15.8241 47.2 22C47.2 28.2333 42.137 33.2 36 33.2C29.8646 33.2 24.8 28.2333 24.8 22Z"
+                                        fill="currentColor"
+                                    />
+                                    <path
+                                        d="M30.6797 42.1944C31.3435 41.8087 32.2069 42.0148 32.6074 42.6546L37.7982 50.9488C38.1986 51.5887 37.9847 52.4198 37.3203 52.8055C36.6532 53.1928 35.7914 52.9825 35.3926 52.3453L30.2018 44.0511C29.8014 43.4112 30.0153 42.5801 30.6797 42.1944Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                               
+                            </span>
+                            <div class="main">
+                                <span class="main_title">Address</span>
+                                <div class="main_info">
+                                    <a class="link h6" href="tel:+1234567890">Sharjah UAE</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="contact_data-item">
+                            <span class="media media--highlight">
                                 <svg width="60" height="67" viewBox="0 0 60 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         fill-rule="evenodd"
@@ -264,41 +295,8 @@
                             <div class="main">
                                 <span class="main_title">Phones</span>
                                 <div class="main_info">
-                                    <a class="link h6" href="tel:+1234567890">+8 (495) 989 20 11</a>
-                                    <a class="link h6" href="tel:+1234567890">+8 (495) 969 60 12</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="contact_data-item">
-                            <span class="media media--highlight">
-                                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M27.5 37C28.3279 37 29 37.6721 29 38.5C29 39.3279 28.3279 40 27.5 40C26.6721 40 26 39.3279 26 38.5C26 37.6721 26.6721 37 27.5 37Z"
-                                        fill="currentColor"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        clip-rule="evenodd"
-                                        d="M57.6327 52.001L71.6952 69.7198C72.0309 70.1422 72.0946 70.7195 71.86 71.2051C71.6255 71.6913 71.1333 72 70.5938 72H1.40639C0.866966 72 0.374779 71.6913 0.140221 71.2051C-0.0948868 70.7195 -0.0306168 70.1422 0.305016 69.7198L14.3675 52.001C14.6339 51.6649 15.0399 51.4688 15.4689 51.4688H27.7873L17.2706 34.9739C14.8037 31.2753 13.5001 26.9621 13.5001 22.5C13.5001 10.0937 23.5933 0 36.0001 0C48.407 0 58.5001 10.0937 58.5001 22.5C58.5001 26.9621 57.1966 31.2748 54.7296 34.9739L44.2129 51.4688H56.5314C56.9604 51.4688 57.3658 51.6649 57.6327 52.001ZM62.8831 63.1406H54.3802L59.1791 69.1875H67.6825L62.8831 63.1406ZM38.5643 60.3281L42.4194 54.2812H43.7581L48.5575 60.3281H38.5643ZM29.5803 54.2812H28.2416L23.4428 60.3281H33.4354L29.5803 54.2812ZM16.4115 69.1875L21.2103 63.1406H50.7894L55.5887 69.1875H16.4115ZM12.8206 69.1875L17.62 63.1406H9.1166L4.31777 69.1875H12.8206ZM19.8519 60.3281H11.349L16.1478 54.2812H24.6512L19.8519 60.3281ZM52.3818 33.4248C54.5445 30.1871 55.6876 26.4095 55.6876 22.5C55.6876 11.6444 46.8557 2.8125 36.0001 2.8125C25.1445 2.8125 16.3126 11.6444 16.3126 22.5C16.3126 26.4095 17.4558 30.1871 19.6179 33.4248C19.6219 33.4303 19.6254 33.4358 19.629 33.4413L19.6343 33.4495C20.5577 34.8981 35.2888 58.0034 36.0001 59.1185C37.7892 56.3121 50.5438 36.3071 52.3659 33.4495C52.3692 33.444 52.3727 33.4386 52.3763 33.4331C52.3781 33.4303 52.38 33.4276 52.3818 33.4248ZM52.1478 60.3281L47.349 54.2812H55.8518L60.6512 60.3281H52.1478Z"
-                                        fill="currentColor"
-                                    />
-                                    <path
-                                        fill-rule="evenodd"
-                                        clip-rule="evenodd"
-                                        d="M22 22C22 29.776 28.3142 36 36 36C43.6836 36 50 29.7782 50 22C50 14.2803 43.7197 8 36 8C28.2803 8 22 14.2803 22 22ZM24.8 22C24.8 15.8241 29.8241 10.8 36 10.8C42.1759 10.8 47.2 15.8241 47.2 22C47.2 28.2333 42.137 33.2 36 33.2C29.8646 33.2 24.8 28.2333 24.8 22Z"
-                                        fill="currentColor"
-                                    />
-                                    <path
-                                        d="M30.6797 42.1944C31.3435 41.8087 32.2069 42.0148 32.6074 42.6546L37.7982 50.9488C38.1986 51.5887 37.9847 52.4198 37.3203 52.8055C36.6532 53.1928 35.7914 52.9825 35.3926 52.3453L30.2018 44.0511C29.8014 43.4112 30.0153 42.5801 30.6797 42.1944Z"
-                                        fill="currentColor"
-                                    />
-                                </svg>
-                            </span>
-                            <div class="main">
-                                <span class="main_title">Address</span>
-                                <div class="main_info">
-                                    <span class="h6">4621 Hill Croft Farm</span>
-                                    <span class="h6">Road</span>
+                                    <span class="h6">876 543 321</span>
+                                    
                                 </div>
                             </div>
                         </li>
@@ -332,8 +330,8 @@
                             <div class="main">
                                 <span class="main_title">Emails</span>
                                 <div class="main_info">
-                                    <a class="link h6" href="mailto:example@domain.com">rolso@site.com</a>
-                                    <a class="link h6" href="mailto:example@domain.com">rolso@gensite.com</a>
+                                    <a class="link h6" href="mailto:example@domain.com">support@triton-tms.com</a>
+                                    
                                 </div>
                             </div>
                         </li>
@@ -379,8 +377,8 @@
                         <div class="contacts_main-card d-flex flex-column justify-content-end">
                             <span class="contacts_main-card_bg">
                                 <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
-                                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                                    <source data-srcset="img/1x/Asset-15.png" srcset="img/1x/Asset-15.png" />
+                                    <img class="lazy" data-src="img/1x/Asset-15.png" src="img/1x/Asset-15.png" alt="media" />
                                 </picture>
                             </span>
                             <div class="content">
@@ -401,97 +399,97 @@
         <!-- contacts content end -->
         <footer class="footer">
             <div class="container">
-                <div class="footer_main d-md-flex flex-wrap justify-content-between">
-                    <div class="footer_main-block footer_main-block--about">
-                        <span class="brand">
-                            <a class="logo d-inline-flex align-items-center" href="index.html">
-                                <span class="logo_media">
-                                    <svg width="56px" height="37px" viewBox="0 0 56 37" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                        <title>Combined Shape</title>
-                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g fill="currentColor" transform="translate(0.000000, -0.000000)">
-                                                <g transform="translate(0.000000, 0.000000)">
-                                                    <path
-                                                        d="M37.9730366,0 L56,18.5 L37.9730366,37 L20.0419919,18.5 L25.8616371,12.5121359 L23.0545408,9.458807 L14.4823984,18.5 L30.1911192,35 L28,37 L23.0545408,32 L18.195333,37 L0,18.5 L18.195333,0 L36.0014273,18.5 L30.1911192,24.6483396 L32.9085797,27.4399418 L41.6203395,18.5 L25.8616371,2.43040321 L28,0 L32.9085797,5.20234095 L37.9730366,0 Z M17.9818927,4.43392989 L4.64144645,18.5147247 L17.9818927,32.5955195 L21.0810871,29.6079919 L10.1321127,18.5 L21.0810871,7.28442361 L17.9818927,4.43392989 Z M37.7101843,4.43392989 L35.2883953,7.44356982 L46.1323481,18.5 L35.2883953,29.7451953 L37.7101843,32 L51.3914285,18.5147247 L37.7101843,4.43392989 Z M28,14.5941371 L24.4227574,18.5 L28,22.3996382 L31.7636086,18.5147247 L28,14.5941371 Z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span class="logo_text">Rolso</span>
-                            </a>
-                        </span>
-                        <p class="text">
-                            Nam laoreet est et dui scelerisque, vel rutrum diam fringilla. In nec convallis nisi. Duis vitae ornare massa,
-                            vitae iaculis tellus. Sed ultricies tempus metus ut posuere.
-                        </p>
-                    </div>
-                    <div class="footer_main-block footer_main-block--nav">
-                        <ul class="list d-flex flex-column">
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="about.html">About Company</a>
-                            </li>
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="calculator.html">Calculator</a>
-                            </li>
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="services.html">Services</a>
-                            </li>
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="prices.html">Prices</a>
-                            </li>
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="faq.html">FAQs</a>
-                            </li>
-                            <li class="list-item">
-                                <i class="icon-caret_right icon"></i>
-                                <a class="link" href="contacts.html">Our Contacts</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer_main-block footer_main-block--subscribe">
-                        <h5 class="title">Subscribe</h5>
-                        <p class="text">Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis vestibulum</p>
-                        <form class="form d-flex justify-content-between" action="#" method="post" data-type="subscription">
-                            <input class="field required flex-grow-1" type="text" data-type="email" placeholder="Enter Your Email" />
-                            <button class="btn" type="submit">
-                                <i class="icon-paper-plane icon"></i>
-                            </button>
-                        </form>
-                    </div>
+              <div class="footer_main d-md-flex flex-wrap justify-content-between">
+                <div class="footer_main-block footer_main-block--about">
+                  <span class="brand">
+                    <a
+                      class="logo d-inline-flex align-items-center"
+                      href="index.html"
+                    >
+                      <span class="logo_media">
+                        <img src="img/home/logo-01.png" alt="" srcset="" />
+                      </span>
+                    </a>
+                  </span>
+                  <p class="text">
+                    With extensive marine expertise and a focus on
+                    reliability, we deliver precise, safe, and innovative
+                    solutions for smooth and successful operations.
+                  </p>
                 </div>
-
-                <ul class="footer_info d-md-flex flex-wrap">
-                    <li class="footer_info-block">
-                        <div class="main">
-                            <span class="main_label">Phone</span>
-                            <a class="main_info link link--bold" href="tel:+1234567890">+8 (495) 989 20 11</a>
-                        </div>
+                <div class="footer_main-block footer_main-block--nav">
+                  <ul class="list d-flex flex-column">
+                    <li class="list-item">
+                      <i class="icon-caret_right icon"></i>
+                      <a class="link" href="about.html">About Us</a>
                     </li>
-                    <li class="footer_info-block footer_info-block--highlight">
-                        <div class="main">
-                            <span class="main_label">Location</span>
-                            <span class="main_info">4621 Hill Croft Farm Road</span>
-                        </div>
+                    <li class="list-item">
+                      <i class="icon-caret_right icon"></i>
+                      <a class="link" href="services.html">Our Services</a>
                     </li>
-                    <li class="footer_info-block">
-                        <div class="main">
-                            <span class="main_label">Email</span>
-                            <a class="main_info link" href="mailto:example@domain.com">rolso.office@gmail.com</a>
-                        </div>
+                    <li class="list-item">
+                      <i class="icon-caret_right icon"></i>
+                      <a class="link" href="contacts.html">Contact Us</a>
                     </li>
-                </ul>
-
-                <p class="footer_copyrights">All rights reserved Copyrights <span id="currentYear"></span></p>
+                  </ul>
+                </div>
+      
+                <!-- <div class="footer_main-block footer_main-block--subscribe">
+                  <h5 class="title">Subscribe</h5>
+                  <p class="text">
+                    Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis
+                    vestibulum
+                  </p>
+                  <form
+                    class="form d-flex justify-content-between"
+                    action="#"
+                    method="post"
+                    data-type="subscription"
+                  >
+                    <input
+                      class="field required flex-grow-1"
+                      type="text"
+                      data-type="email"
+                      placeholder="Enter Your Email"
+                    />
+                    <button class="btn" type="submit">
+                      <i class="icon-paper-plane icon"></i>
+                    </button>
+                  </form>
+                </div> -->
+              </div>
+      
+              <ul class="footer_info d-md-flex flex-wrap">
+                <li class="footer_info-block">
+                  <div class="main">
+                    <span class="main_label">Phone</span>
+                    <a class="main_info link link--bold" href="tel:01 6789 45 123">01 6789 45 123</a>
+                  </div>
+                </li>
+                <li class="footer_info-block footer_info-block--highlight">
+                  <div class="main">
+                    <span class="main_label">Location</span>
+                    <a class="main_info">sharjah UAE</a>
+                  </div>
+                </li>
+                <li class="footer_info-block">
+                  <div class="main">
+                    <span class="main_label">Email</span>
+                    <a class="main_info link" href="mailto:support@triton-tms.com"
+                      >support@triton-tms.com</a
+                    >
+                  </div>
+                </li>
+              </ul>
+      
+              <p class="footer_copyrights">
+                @<span id="currentYear"></span>
+                <a href="https://khpmarketingagency.com/" target="_blank"
+                  >KHP Marketing Agency</a
+                >. All Rights Reserved.
+              </p>
             </div>
-        </footer>
+          </footer>
         <script src="js/common.min.js"></script>
     </body>
 </html>

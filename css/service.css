@@ -416,7 +416,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    background: #00008e;
+    background: #215BA4;
     font-size: 20px
 }
 
@@ -854,7 +854,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
 }
 
 .swiper-button {
-    background: #00008e;
+    background: #215BA4;
     color: #fff;
     font-size: 18px;
     line-height: 1;
@@ -1228,7 +1228,7 @@ input[type=number] {
     top: 0;
     left: 0;
     padding: 15px 0;
-    background: #00008e
+    background: #215BA4
 }
 
 .header_nav-trigger {
@@ -1521,8 +1521,7 @@ input[type=number] {
     height: 100%;
     top: 0;
     left: 0;
-    background: -o-linear-gradient(315deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
-    background: linear-gradient(135deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
+    background-image: url(../img/1x/Asset-0.png);
     z-index: 1
 }
 
@@ -1733,7 +1732,7 @@ input[type=number] {
 }
 
 .content .sidebar_block--contacts .icon {
-    background: #017280
+    background: #1B89BC
 }
 
 .content .sidebar_block--contacts .list-item {
@@ -2088,8 +2087,8 @@ input[type=number] {
 }
 
 .footer {
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#0c4e6d 100%);
+    background: linear-gradient(135deg,#215BA4 0,#0c4e6d 100%);
     color: #fff;
     padding: 80px 0 40px
 }
