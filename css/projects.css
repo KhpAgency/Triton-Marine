@@ -10,7 +10,7 @@
  * @contributors    Lilith Lamber (winter.rituel@gmail.com)
  * @support         help@merkulov.design
  **/
-* {
+ * {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -416,7 +416,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    background: #00008e;
+    background: #215BA4;
     font-size: 20px
 }
 
@@ -854,7 +854,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
 }
 
 .swiper-button {
-    background: #00008e;
+    background: #215BA4;
     color: #fff;
     font-size: 18px;
     line-height: 1;
@@ -1228,7 +1228,9 @@ input[type=number] {
     top: 0;
     left: 0;
     padding: 15px 0;
-    background: #00008e
+    /* background: #215BA4 */
+    background: -o-linear-gradient(315deg,#215BA4 0,#0c4e6d 100%);
+    background: linear-gradient(135deg,#215BA4 0,#0c4e6d 100%);
 }
 
 .header_nav-trigger {
@@ -1521,19 +1523,12 @@ input[type=number] {
     height: 100%;
     top: 0;
     left: 0;
-    background: -o-linear-gradient(315deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
-    background: linear-gradient(135deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%);
+    background-image: url(../img/1x/1x/Asset-39.png);
     z-index: 1
 }
 
 .page .container {
     padding: 0
-}
-
-.page_card {
-    position: relative;
-    z-index: 10;
-    padding-top: 150px
 }
 
 .page_card-breadcrumbs {
@@ -1543,7 +1538,8 @@ input[type=number] {
 
 .page_card-title {
     line-height: 1.3;
-    color: #fff
+    color: #fff;
+    max-width: 300px
 }
 
 @media screen and (min-width:575.98px) {
@@ -1594,159 +1590,507 @@ input[type=number] {
     background: url(../img/placeholder.jpg) center/cover no-repeat fixed
 }
 
-.projects_filters {
-    gap: 5px 20px;
-    margin-bottom: 10px
-}
-
-.projects_filters .list-item {
-    font-weight: 600;
-    font-size: 16px
-}
-
-.projects_filters-filter.current,.projects_filters-filter:focus,.projects_filters-filter:hover {
-    color: #0f0fb1
-}
-
-.projects_gallery-item {
+.page_card {
     position: relative;
-    display: block;
-    float: left;
-    min-height: 1px;
-    margin-top: 20px
+    z-index: 10;
+    padding-top: 120px
 }
 
-.projects_gallery-item .aspect {
+.content {
+    padding-bottom: 0
+}
+
+.content_about {
+    margin-bottom: 40px
+}
+
+.content_about-media {
+    margin-bottom: 20px
+}
+
+.content_about-media_main img,.content_about-media_thumbs img {
+    height: 100%
+}
+
+.content_about-media_main {
+    height: 180px;
+    margin-bottom: 10px;
+    position: relative
+}
+
+.content_about-media_main .swiper-wrapper {
+    pointer-events: none
+}
+
+.content_about-media_main .swiper-controls {
+    padding: 10px
+}
+
+.content_about-media_thumbs {
+    height: 90px
+}
+
+.content_about-media_thumbs .swiper-slide {
     position: relative;
-    display: block;
-    width: 100%;
-    height: 0;
-    z-index: 1000;
-    overflow: hidden;
-    padding-bottom: 100%;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0)
+    cursor: pointer
 }
 
-.projects_gallery-item .aspect:focus .overlay,.projects_gallery-item .aspect:hover .overlay {
-    opacity: 1;
-    bottom: 0
-}
-
-.projects_gallery-item .aspect:focus .aspect__inner,.projects_gallery-item .aspect:hover .aspect__inner {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1)
-}
-
-.projects_gallery-item .aspect__inner {
+.content_about-media_thumbs .swiper-slide:after {
+    content: '';
     position: absolute;
     top: 0;
-    right: 0;
     bottom: 0;
     left: 0;
-    -webkit-transition: .4s ease-in;
-    -o-transition: .4s ease-in;
-    transition: .4s ease-in;
-    z-index: -1
-}
-
-.projects_gallery-item .aspect__inner img {
-    height: 100%;
-    width: 100%;
-    display: block;
-    -o-object-fit: cover;
-    object-fit: cover
-}
-
-.projects_gallery-item .overlay {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
     right: 0;
-    background: #00008e;
-    padding: 30px;
-    -webkit-transition: .4s ease-in-out;
-    -o-transition: .4s ease-in-out;
-    transition: .4s ease-in-out;
-    opacity: 0;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content
+    background: rgba(0,0,142,.4);
+    -webkit-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    opacity: 0
 }
 
-.projects_gallery-item .overlay_title {
-    color: #fff;
+.content_about-media_thumbs .swiper-slide:hover:after {
+    opacity: 1
+}
+
+.content_about-main_text {
     margin-bottom: 15px
 }
 
-.projects_gallery-item .overlay_text {
-    color: #e1e1e1;
-    font-style: italic
+.content_about-main_text:last-of-type {
+    margin-bottom: 0
 }
 
-.projects_btn {
-    margin: 40px auto 0
+.content_about-main_group {
+    margin: 20px 0
+}
+
+.content_about-main_group .block {
+    margin-bottom: 20px
+}
+
+.content_about-main_group .block:last-of-type {
+    margin-bottom: 0
+}
+
+.content_about-main_group .block:nth-of-type(odd) .icon {
+    color: #00008e
+}
+
+.content_about-main_group .block:nth-of-type(even) .icon {
+    color: #017280
+}
+
+.content_about-main_group .block_title {
+    margin-bottom: 10px
+}
+
+.content_about-main_group .block_list-item {
+    margin-bottom: 5px
+}
+
+.content_about-main_group .block_list-item:last-of-type {
+    margin-bottom: 0
+}
+
+.content_about-main_group .block_list-item .icon {
+    margin-right: 10px
+}
+
+.content_about-main_presentation {
+    margin-top: 30px
+}
+
+.content_about-main_presentation .title {
+    margin-bottom: 15px
+}
+
+.content_about-main_presentation .list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr
+}
+
+.content_about-main_presentation .list-item .media {
+    height: 270px;
+    margin-bottom: 10px
+}
+
+.content_about-main_presentation .list-item .media img {
+    height: 100%
+}
+
+.content_about-main_presentation .list-item .main_specs {
+    font-weight: 500;
+    color: #00008e
+}
+
+.content .sidebar_block .list-item:last-of-type {
+    margin-bottom: 0
+}
+
+.content .sidebar_block--services .list-item {
+    margin-bottom: 5px
+}
+
+.content .sidebar_block--contacts .icon {
+    background: #1B89BC
+}
+
+.content .sidebar_block--contacts .list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 10px
 }
 
 @media screen and (min-width:575.98px) {
-    .projects_filters {
-        gap: 5px 40px
+    .page_card {
+        padding-top: 150px
     }
 
-    .projects_gallery {
-        margin: 0 -10px
+    .page_card-title {
+        max-width: unset
     }
 
-    .projects_gallery-item {
-        padding: 0 10px
+    .content_about-media_main {
+        height: 280px
     }
 
-    .projects_gallery-item .overlay {
-        height: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center
+    .content_about-media_thumbs {
+        height: 140px
     }
 }
 
 @media screen and (min-width:767.98px) {
-    .projects_filters {
-        gap: 5px 90px
+    .page_card {
+        padding-top: 205px
     }
 
-    .projects_gallery {
-        margin: 0 -10px
+    .page_card-title {
+        max-width: unset
     }
 
-    .projects_gallery-item {
-        padding: 0 10px;
-        margin-top: 30px
+    .content_about {
+        margin-bottom: 60px
     }
 
-    .projects_gallery-item .aspect {
-        padding-bottom: 125%
+    .content_about-media {
+        margin-bottom: 20px
     }
 
-    .projects_gallery-item .aspect .overlay {
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content
+    .content_about-media_main {
+        height: 360px;
+        margin-bottom: 20px
+    }
+
+    .content_about-media_main .swiper-controls {
+        padding: 20px
+    }
+
+    .content_about-main_group {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px
+    }
+
+    .content_about-main_group .block {
+        margin-bottom: 0
+    }
+
+    .content_about-main_presentation .list {
+        grid-template-columns: repeat(2,1fr)
+    }
+}
+
+@media screen and (min-width:991.98px) {
+    .page_card {
+        padding-top: 280px
+    }
+
+    .content_about {
+        width: calc(100% - 370px);
+        margin-bottom: 0
+    }
+
+    .content_about-media {
+        margin-bottom: 30px
+    }
+
+    .content_about-media_main {
+        height: 420px
+    }
+
+    .content_about-media_thumbs {
+        height: 115px
+    }
+
+    .content_about-main_text {
+        margin-bottom: 25px
+    }
+
+    .content_about-main_group {
+        margin: 30px 0
+    }
+
+    .content_about-main_group .block_title {
+        margin-bottom: 20px
+    }
+
+    .content_about-main_group .block_list-item {
+        margin-bottom: 10px
+    }
+
+    .content_about-main_presentation {
+        margin-top: 40px
+    }
+
+    .content_about-main_presentation .title {
+        margin-bottom: 30px
+    }
+
+    .content_about-main_presentation .list-item .media {
+        margin-bottom: 20px
+    }
+
+    .content_about-main_presentation .list-item .main_title {
+        margin-bottom: 10px
+    }
+
+    .content_aside {
+        width: 330px
+    }
+
+    .content_aside .sidebar_block--contacts .list .list-item .label {
+        margin-bottom: 5px
+    }
+}
+
+@media screen and (min-width:1199.98px) {
+    .page_card {
+        padding-top: 340px
+    }
+
+    .content_about {
+        width: calc(100% - 400px)
+    }
+}
+
+.plans_header {
+    margin-bottom: 40px
+}
+
+.plans_header-title {
+    margin-bottom: 15px
+}
+
+.plans_header-text {
+    margin-bottom: 30px
+}
+
+.plans_header-btn {
+    width: 100%
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px
+}
+
+.pricing_card {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 25px rgba(0,0,142,.15);
+    box-shadow: 0 2px 25px rgba(0,0,142,.15);
+    padding: 40px 20px 40px 30px;
+    position: relative
+}
+
+.pricing_card-label {
+    position: absolute;
+    height: 40px;
+    width: 180px;
+    background: #ffcc29;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Poppins,sans-serif;
+    color: #19456b;
+    font-weight: 600;
+    font-size: 14px;
+    visibility: hidden
+}
+
+.pricing_card-main {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    padding: 0 10px 15px
+}
+
+.pricing_card-main .saving {
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #017280
+}
+
+.pricing_card-plan {
+    padding: 20px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.pricing_card-plan .plan {
+    color: #017280
+}
+
+.pricing_card-plan .month {
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    left: -5px
+}
+
+.pricing_card-plan .annual {
+    color: #6d6d6d;
+    font-size: 14px
+}
+
+.pricing_card-main,.pricing_card-plan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.pricing_card-features {
+    padding: 30px 10px
+}
+
+.pricing_card-features_item {
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+.pricing_card-features_item:last-of-type {
+    margin-bottom: 0
+}
+
+.pricing_card-features_item.highlight {
+    font-weight: 600
+}
+
+.pricing_card-features_item .icon {
+    margin-right: 5px;
+    color: #6d6d6d
+}
+
+.pricing_card-btn {
+    width: 100%
+}
+
+.pricing_card--highlight .pricing_card-main .saving,.pricing_card--highlight .pricing_card-plan .plan {
+    color: #00008e
+}
+
+@media screen and (min-width:575.98px) {
+    .plans_header-title {
+        max-width: 600px;
+        margin: 0 0 15px
+    }
+
+    .plans_header-text {
+        max-width: 890px;
+        margin: 0 0 30px
+    }
+
+    .plans_header-btn {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 0 auto
+    }
+
+    .pricing_card-btn {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content
+    }
+}
+
+@media screen and (min-width:767.98px) {
+    .pricing {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 40px
+    }
+
+    .pricing_card {
+        padding: 60px 30px 60px 40px
+    }
+
+    .pricing_card-label {
+        visibility: visible;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: -40px
+    }
+
+    .pricing_card-main {
+        padding: 0 10px 25px
+    }
+
+    .pricing_card-plan {
+        padding: 30px 10px
+    }
+
+    .pricing_card-features {
+        padding: 40px 10px
+    }
+
+    .pricing_card-features_item {
+        margin-bottom: 15px
+    }
+}
+
+@media screen and (min-width:991.98px) {
+    .plans_header {
+        margin-bottom: 50px
+    }
+
+    .plans_header-title {
+        margin: 0 0 30px
+    }
+
+    .plans_header-text {
+        margin: 0 0 50px
+    }
+
+    .pricing {
+        grid-gap: 50px
     }
 }
 
 .footer {
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#0c4e6d 100%);
+    background: linear-gradient(135deg,#215BA4 0,#0c4e6d 100%);
     color: #fff;
     padding: 80px 0 40px
 }
@@ -1955,10 +2299,6 @@ input[type=number] {
 }
 
 @media screen and (min-width:991.98px) {
-    .projects_btn {
-        margin-top: 50px
-    }
-
     .footer {
         padding: 100px 0 40px
     }
@@ -1981,6 +2321,10 @@ input[type=number] {
 }
 
 @media screen and (min-width:1199.98px) {
+    .pricing {
+        grid-template-columns: repeat(3,1fr)
+    }
+
     .footer_main {
         margin-bottom: 80px
     }
@@ -2029,4 +2373,4 @@ input[type=number] {
         padding: 40px 30px
     }
 }
-/*# sourceMappingURL=../sourcemaps/projects.css.map */
+/*# sourceMappingURL=../sourcemaps/service.css.map */
