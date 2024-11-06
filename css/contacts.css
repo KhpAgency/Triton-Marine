@@ -285,7 +285,7 @@ body {
 
 .btn {
     color: #fff;
-    background: #215BA4;
+    background: #12427c;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -343,7 +343,7 @@ body {
 
 .btn--split .icon {
     width: 54px;
-    background: #19456b;
+    background:  #19456b;
     height: 100%
 }
 
@@ -482,8 +482,8 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#19456b 100%);
+    background: linear-gradient(135deg,#215BA4 0,#19456b 100%);
     z-index: -1;
     top: 50%;
     left: 50%;
@@ -552,7 +552,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 30%;
-    background: #017280;
+    background: #19456b;
     color: #fff;
     display: none
 }
