@@ -314,7 +314,7 @@ body {
     right: 0;
     width: 0;
     height: 100%;
-    background: #00008e;
+    background: #215BA4;
     -webkit-transition: width .3s ease-in-out;
     -o-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out
@@ -343,7 +343,7 @@ body {
 
 .btn--split .icon {
     width: 54px;
-    background: #00008e;
+    background: #215BA4;
     height: 100%
 }
 
@@ -362,7 +362,7 @@ body {
 }
 
 .btn--regular:focus,.btn--regular:hover {
-    background-color: #00008e
+    background-color: #215BA4
 }
 
 .btn--regular,.btn--split {
@@ -444,7 +444,7 @@ body {
 }
 
 .metadata_item .icon {
-    color: #00008e;
+    color: #215BA4;
     margin-right: 5px
 }
 
@@ -482,8 +482,8 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#017280 100%);
+    background: linear-gradient(135deg,#215BA4 0,#017280 100%);
     z-index: -1;
     top: 50%;
     left: 50%;
@@ -562,7 +562,7 @@ body {
 }
 
 .contact_data-item .media--highlight {
-    background: #00008e
+    background: #215BA4
 }
 
 .contact_data-item .main {
@@ -692,7 +692,7 @@ input[type=checkbox]:checked+label .icon,input[type=checkbox]:not(:checked)+labe
 
 input[type=checkbox]:checked+label .icon-check-square-regular {
     opacity: 1;
-    color: #00008e
+    color: #215BA4
 }
 
 input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
@@ -820,7 +820,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
     border-radius: 2.5px;
     width: 20px;
     height: 5px;
-    background: #00008e;
+    background: #215BA4;
     margin-right: 15px;
     -webkit-transition: width .7s ease-in-out;
     -o-transition: width .7s ease-in-out;
@@ -1477,7 +1477,7 @@ input[type=number] {
 
     .header_nav-menu .dropdown-list {
         background: #fff;
-        border-left: 3px solid #00008e;
+        border-left: 3px solid #215BA4;
         padding: 0;
         margin: 0;
         color: #19456b;
@@ -1496,7 +1496,7 @@ input[type=number] {
     }
 
     .header_nav-menu .dropdown-list .nav-item.current,.header_nav-menu .dropdown-list .nav-item:hover {
-        background: #00008e;
+        background: #215BA4;
         color: #fff
     }
 
@@ -1674,7 +1674,7 @@ input[type=number] {
 }
 
 .content_about-main_group .block:nth-of-type(odd) .icon {
-    color: #00008e
+    color: #215BA4
 }
 
 .content_about-main_group .block:nth-of-type(even) .icon {
@@ -1722,7 +1722,7 @@ input[type=number] {
 
 .content_about-main_presentation .list-item .main_specs {
     font-weight: 500;
-    color: #00008e
+    color: #215BA4
 }
 
 .content .sidebar_block .list-item:last-of-type {
@@ -2006,7 +2006,7 @@ input[type=number] {
 }
 
 .pricing_card--highlight .pricing_card-main .saving,.pricing_card--highlight .pricing_card-plan .plan {
-    color: #00008e
+    color: #215BA4
 }
 
 @media screen and (min-width:575.98px) {
@@ -2202,7 +2202,7 @@ input[type=number] {
 .footer_main-block--subscribe .form .btn {
     width: 55px;
     font-size: 22px;
-    background: #00008e
+    background: #215BA4
 }
 
 .footer_main-block--subscribe .form .btn .icon {

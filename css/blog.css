@@ -314,7 +314,7 @@ body {
     right: 0;
     width: 0;
     height: 100%;
-    background: #00008e;
+    background: #215BA4;
     -webkit-transition: width .3s ease-in-out;
     -o-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out
@@ -343,7 +343,7 @@ body {
 
 .btn--split .icon {
     width: 54px;
-    background: #00008e;
+    background: #215BA4;
     height: 100%
 }
 
@@ -362,7 +362,7 @@ body {
 }
 
 .btn--regular:focus,.btn--regular:hover {
-    background-color: #00008e
+    background-color: #215BA4
 }
 
 .btn--regular,.btn--split {
@@ -416,7 +416,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    background: #00008e;
+    background: #215BA4;
     font-size: 20px
 }
 
@@ -444,7 +444,7 @@ body {
 }
 
 .metadata_item .icon {
-    color: #00008e;
+    color: #215BA4;
     margin-right: 5px
 }
 
@@ -482,8 +482,8 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#017280 100%);
+    background: linear-gradient(135deg,#215BA4 0,#017280 100%);
     z-index: -1;
     top: 50%;
     left: 50%;
@@ -562,7 +562,7 @@ body {
 }
 
 .contact_data-item .media--highlight {
-    background: #00008e
+    background: #215BA4
 }
 
 .contact_data-item .main {
@@ -692,7 +692,7 @@ input[type=checkbox]:checked+label .icon,input[type=checkbox]:not(:checked)+labe
 
 input[type=checkbox]:checked+label .icon-check-square-regular {
     opacity: 1;
-    color: #00008e
+    color: #215BA4
 }
 
 input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
@@ -820,7 +820,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
     border-radius: 2.5px;
     width: 20px;
     height: 5px;
-    background: #00008e;
+    background: #215BA4;
     margin-right: 15px;
     -webkit-transition: width .7s ease-in-out;
     -o-transition: width .7s ease-in-out;
@@ -854,7 +854,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
 }
 
 .swiper-button {
-    background: #00008e;
+    background: #215BA4;
     color: #fff;
     font-size: 18px;
     line-height: 1;
@@ -1228,7 +1228,7 @@ input[type=number] {
     top: 0;
     left: 0;
     padding: 15px 0;
-    background: #00008e
+    background: #215BA4
 }
 
 .header_nav-trigger {
@@ -1475,7 +1475,7 @@ input[type=number] {
 
     .header_nav-menu .dropdown-list {
         background: #fff;
-        border-left: 3px solid #00008e;
+        border-left: 3px solid #215BA4;
         padding: 0;
         margin: 0;
         color: #19456b;
@@ -1494,7 +1494,7 @@ input[type=number] {
     }
 
     .header_nav-menu .dropdown-list .nav-item.current,.header_nav-menu .dropdown-list .nav-item:hover {
-        background: #00008e;
+        background: #215BA4;
         color: #fff
     }
 
@@ -1661,7 +1661,7 @@ input[type=number] {
 }
 
 .sidebar_block--latest .list-item .main_date .icon {
-    color: #00008e;
+    color: #215BA4;
     margin-right: 5px
 }
 
@@ -1693,7 +1693,7 @@ input[type=number] {
 
 .sidebar_block--archives .list-item .link .icon {
     margin-right: 10px;
-    color: #00008e;
+    color: #215BA4;
     -webkit-transition: margin-right .3s ease-in-out;
     -o-transition: margin-right .3s ease-in-out;
     transition: margin-right .3s ease-in-out
@@ -1711,7 +1711,7 @@ input[type=number] {
     margin-right: 10px;
     position: relative;
     top: 3px;
-    color: #00008e
+    color: #215BA4
 }
 
 .sidebar_block--comments .list-item .comment {
@@ -1827,8 +1827,8 @@ input[type=number] {
 }
 
 .footer {
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#017280 100%);
+    background: linear-gradient(135deg,#215BA4 0,#017280 100%);
     color: #fff;
     padding: 80px 0 40px
 }
@@ -1940,7 +1940,7 @@ input[type=number] {
 .footer_main-block--subscribe .form .btn {
     width: 55px;
     font-size: 22px;
-    background: #00008e
+    background: #215BA4
 }
 
 .footer_main-block--subscribe .form .btn .icon {

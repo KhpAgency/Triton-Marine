@@ -370,7 +370,7 @@ body {
 }
 
 .btn--regular:focus,.btn--regular:hover {
-    background-color: #00008e
+    background-color: #215BA4
 }
 
 .btn--regular,.btn--split {
@@ -424,7 +424,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     color: #fff;
-    background: #00008e;
+    background: #215BA4;
     font-size: 20px
 }
 
@@ -452,7 +452,7 @@ body {
 }
 
 .metadata_item .icon {
-    color: #00008e;
+    color: #215BA4;
     margin-right: 5px
 }
 
@@ -490,8 +490,8 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: -o-linear-gradient(315deg,#00008e 0,#017280 100%);
-    background: linear-gradient(135deg,#00008e 0,#017280 100%);
+    background: -o-linear-gradient(315deg,#215BA4 0,#017280 100%);
+    background: linear-gradient(135deg,#215BA4 0,#017280 100%);
     z-index: -1;
     top: 50%;
     left: 50%;
@@ -560,7 +560,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 30%;
-    background: #017280;
+    background: #19456b;
     color: #fff;
     display: none
 }
@@ -570,7 +570,7 @@ body {
 }
 
 .contact_data-item .media--highlight {
-    background: #00008e
+    background: #215BA4
 }
 
 .contact_data-item .main {
@@ -700,7 +700,7 @@ input[type=checkbox]:checked+label .icon,input[type=checkbox]:not(:checked)+labe
 
 input[type=checkbox]:checked+label .icon-check-square-regular {
     opacity: 1;
-    color: #00008e
+    color: #215BA4
 }
 
 input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
@@ -828,7 +828,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
     border-radius: 2.5px;
     width: 20px;
     height: 5px;
-    background: #00008e;
+    background: #215BA4;
     margin-right: 15px;
     -webkit-transition: width .7s ease-in-out;
     -o-transition: width .7s ease-in-out;
@@ -862,7 +862,7 @@ input[type=checkbox]:not(:checked)+label .icon-check-square-regular {
 }
 
 .swiper-button {
-    background: #00008e;
+    background: #215BA4;
     color: #fff;
     font-size: 18px;
     line-height: 1;
@@ -1485,7 +1485,7 @@ input[type=number] {
 
     .header_nav-menu .dropdown-list {
         background: #fff;
-        border-left: 3px solid #00008e;
+        border-left: 3px solid #215BA4;
         padding: 0;
         margin: 0;
         color: #19456b;
@@ -1504,7 +1504,7 @@ input[type=number] {
     }
 
     .header_nav-menu .dropdown-list .nav-item.current,.header_nav-menu .dropdown-list .nav-item:hover {
-        background: #00008e;
+        background: #215BA4;
         color: #fff
     }
 
@@ -1690,7 +1690,7 @@ input[type=number] {
 }
 
 .steps_list-item--middle .media_number {
-    background: #017280
+    background: #19456b
 }
 
 @media screen and (min-width:767.98px) {
@@ -1776,7 +1776,7 @@ input[type=number] {
 
 .features_main-list-item .icon {
     margin-right: 10px;
-    color: #00008e;
+    color: #215BA4;
     position: relative;
     top: 1px
 }
@@ -1846,7 +1846,7 @@ input[type=number] {
 }
 
 .about_block-main .title .highlight {
-    color: #00008e
+    color: #215BA4
 }
 
 .about_block-main .text {
@@ -1889,11 +1889,11 @@ input[type=number] {
 }
 
 .about_block-main .list-item:nth-of-type(odd) .media {
-    background: #00008e
+    background: #215BA4
 }
 
 .about_block-main .list-item:nth-of-type(odd) .main_number,.about_block-main .list-item:nth-of-type(odd) .main_number .h3 {
-    color: #00008e
+    color: #215BA4
 }
 
 .about_block-main .list-item:nth-of-type(even) .media {
@@ -2322,7 +2322,7 @@ input[type=number] {
 .footer_main-block--subscribe .form .btn {
     width: 55px;
     font-size: 22px;
-    background: #00008e
+    background: #215BA4
 }
 
 .footer_main-block--subscribe .form .btn .icon {
