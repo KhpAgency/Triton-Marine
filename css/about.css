@@ -16,6 +16,9 @@
  #txt-h{
     color: #4EA1E5;
  }
+ .pos-abs{
+    position: absolute;
+ }
  /* my css */
 
 * {
@@ -1668,21 +1671,24 @@ input[type=number] {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     top: -15px;
     right: -15px;
     color: #fff;
-    background: #215BA4
+    background: #215BA4;
 }
 
 .steps_list-item .main {
-    max-width: 330px;
+    max-width: 420px;
     margin: 0 auto
 }
 
 .steps_list-item .main_title {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .steps_list-item--middle .media {
@@ -1713,8 +1719,8 @@ input[type=number] {
 
     .steps_list-item .media {
         margin: 0 auto 30px;
-        width: 160px;
-        height: 160px
+        width: 120px;
+        height: 120px;
     }
 
     .steps_list-item .media svg {
@@ -1722,7 +1728,7 @@ input[type=number] {
     }
 
     .steps_list-item .media_number {
-        top: 13px;
+        top: -5px;
         right: 0
     }
 
@@ -1737,12 +1743,12 @@ input[type=number] {
     }
 
     .steps_list-item {
-        width: calc(100% / 3);
+        width: calc(100% / 1);
         margin-bottom: 0
     }
 
     .steps_list-item--middle {
-        margin-top: 50px
+        margin-top: 250px
     }
 }
 
