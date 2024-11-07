@@ -1604,7 +1604,7 @@ input[type=number] {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #0f0fb1;
+    background: #215BA4;
     width: 70px;
     height: 70px;
     color: #fff;
@@ -1621,6 +1621,10 @@ input[type=number] {
 
 .services_list-item .media img {
     height: 100%
+}
+.services_list-item .media_icon img {
+    width: 60px;
+    height: 60px;
 }
 
 .services_list-item .main_title {
