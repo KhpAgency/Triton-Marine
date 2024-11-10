@@ -13,9 +13,9 @@
 
 /* my fonts */
 @font-face {
-    font-family: 'Alice';
-    src: local('Alice'), local('Alice'),
-        url('../fonts/Alice-Regular.ttf') format('truetype');
+    font-family: 'poppins';
+    src: local('poppins'), local('poppins'),
+        url('../fonts/poppins-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -1093,7 +1093,7 @@ input[type="number"] {
   display: none;
 }
 .header_nav ul{
-    font-family: 'Alice';
+    font-family: 'poppins';
     text-transform: uppercase;
 }
 .header_nav {
@@ -1421,7 +1421,7 @@ input[type="number"] {
   opacity: 0.6;
 }
 .slider_overlay-brand {
-  font-family: Alice;
+  font-family: poppins;
   /* font-weight: 700; */
   color: #fff;
   opacity: 0;
@@ -1437,7 +1437,7 @@ input[type="number"] {
 }
 .slider_content-title {
     color: #fff;
-    font-family: 'Alice';
+    font-family: 'poppins';
     font-weight: normal;
 }
 .slider_content-text {
@@ -1546,7 +1546,7 @@ input[type="number"] {
 .features_nav-header {
   color: #fff;
   margin-bottom: 30px;
-  font-family: Alice;
+  font-family: poppins;
   font-weight: normal;
 }
 .features_nav-list {
@@ -1706,7 +1706,7 @@ input[type="number"] {
   max-width: 400px;
   margin: 0 auto 15px;
   text-align: center;
-  font-family: Alice;
+  font-family: poppins;
   font-weight: normal;
 }
 .services_list {
@@ -1818,7 +1818,7 @@ input[type="number"] {
   height: 100%;
 }
 .about_block-main .title{
-  font-family: Alice;
+  font-family: poppins;
   font-weight: normal;
 }
 .about_block-main .title .highlight {
@@ -2342,7 +2342,7 @@ input[type="number"] {
   text-align: center;
   max-width: 530px;
   margin: 0 auto 30px;
-  font-family: Alice;
+  font-family: poppins;
   font-weight: normal;
 }
 .map_container {
