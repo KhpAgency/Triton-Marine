@@ -1312,7 +1312,7 @@ input[type=number] {
 
 @media screen and (min-width:767.98px) {
     .header_panel {
-        margin-bottom: 30px
+        margin-bottom: 0px
     }
 
     .header_panel-logo {
@@ -1343,7 +1343,7 @@ input[type=number] {
     }
 
     .header_panel {
-        margin-bottom: 40px
+        margin-bottom: 0px
     }
 
     .header_panel-links {
