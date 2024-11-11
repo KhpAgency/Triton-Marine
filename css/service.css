@@ -10,6 +10,139 @@
  * @contributors    Lilith Lamber (winter.rituel@gmail.com)
  * @support         help@merkulov.design
  **/
+
+
+/* my css */
+#txt-h {
+    color: #4ea1e5;
+  }
+  .pos-abs {
+    position: absolute;
+  }
+  .my-logo {
+    height: 51px;
+    width: 180px;
+    position: relative;
+    top: -15px;
+  }
+  /* my css */
+  
+  /* media query */
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .page_card-title {
+      line-height: 1;
+      color: #fff;
+      font-size: 32px;
+    }
+    .page_card-breadcrumbs {
+      margin-top: 5px !important;
+      color: #bcbcbc;
+    }
+    .page_card {
+      position: relative;
+      z-index: 10;
+      padding-top: 180px !important;
+    }
+    .page_overlay {
+      background-size: cover;
+      z-index: 1;
+    }
+    .section {
+      padding: 30px 0 !important;
+    }
+    .features_main-header {
+      font-size: 26px;
+    }
+    .features_main-header {
+      margin-bottom: 5px !important;
+    }
+    .features_main br {
+      display: none;
+    }
+    .features_main-text {
+      margin-bottom: 5px;
+    }
+    .features_main {
+      margin-bottom: 20px !important;
+    }
+    .core-values {
+      padding-top: 0 !important;
+    }
+    .steps_header-title {
+      margin: 0 0 15px;
+      font-size: 26px;
+    }
+    .steps_list-item .media {
+      width: 80px !important;
+      height: 80px !important;
+    }
+    .media_icon img {
+      width: 50px;
+    }
+    .steps_list-item .media_number {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 25px !important;
+      height: 25px !important;
+      top: -5px !important;
+      right: -5px !important;
+      font-size: 14px;
+      color: #fff;
+      background: #215ba4;
+    }
+    .pos-abs {
+      position: relative;
+    }
+    .reverse {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .steps_list-item:last-of-type {
+      margin-bottom: 45px !important;
+    }
+    .pb0 {
+      padding-bottom: 0 !important;
+    }
+    .steps_list-item .main_title {
+      font-size: 20px !important;
+    }
+    .about_block-main .title .highlight {
+      color: #215ba4;
+      font-size: 24px;
+    }
+    .about_block-main .title {
+      font-size: 24px !important;
+    }
+    .contacts_header {
+      max-width: 530px;
+      margin: 0 auto 30px;
+      font-size: 21px;
+    }
+    .logo_media img {
+      width: 60%;
+      margin-left: -15px;
+    }
+    .content_about-main br{
+      display: none;
+    }
+  }
+  /* media query */
+
+
+
+
 * {
     margin: 0;
     padding: 0;
