@@ -28,6 +28,9 @@
 
 /* media query */
 @media only screen and (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
   .page_card-title {
     line-height: 1;
     color: #fff;
@@ -110,6 +113,25 @@
   }
   .pb0 {
     padding-bottom: 0 !important;
+}
+.steps_list-item .main_title {
+    font-size: 20px !important;
+}
+.about_block-main .title .highlight {
+    color: #215ba4;
+    font-size: 24px;
+}
+.about_block-main .title{
+    font-size: 24px !important;
+}
+.contacts_header {
+    max-width: 530px;
+    margin: 0 auto 30px;
+    font-size: 21px;
+}
+.logo_media img {
+    width: 60%;
+    margin-left: -15px;
 }
 }
 /* media query */
