@@ -2413,6 +2413,7 @@ input[type="number"] {
 .contacts_header {
   max-width: 530px;
   margin: 0 auto 30px;
+  text-align: center;
 }
 
 .contacts_map {
