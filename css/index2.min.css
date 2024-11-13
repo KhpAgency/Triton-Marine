@@ -156,6 +156,11 @@
 .dblock-m{
   display: block !important;
 }
+.frame{
+    border: 0;
+    width: 100%;
+    height: inherit;
+}
 }
 /* media query */
 
