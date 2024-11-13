@@ -146,6 +146,9 @@
   .dblock-m {
     display: block !important;
   }
+  .frame2{
+    height: 400px;
+  }
 }
 /* media query */
 
