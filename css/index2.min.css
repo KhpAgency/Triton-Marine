@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /**
  * Rolso
  * Modern cargo, transport and logistics HTML Template. Exclusively built for transport, logistics, delivery, moving, and cargo websites.
@@ -100,8 +107,13 @@
   position: relative;
 }
 .reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 .steps_list-item:last-of-type {
   margin-bottom: 45px !important;
@@ -125,7 +137,9 @@
   font-size: 21px;
 }
 .services_list {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   grid-gap: 40px;
   margin-bottom: 0px !important;
@@ -234,6 +248,26 @@ textarea:-ms-input-placeholder {
 }
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -645,7 +679,9 @@ h6 {
   margin-left: 5px;
 }
 .contact_data {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: minmax(0, 1fr);
   grid-template-columns: minmax(0, 1fr);
   grid-gap: 20px;
   margin-bottom: 60px;
@@ -1550,6 +1586,7 @@ input[type="number"] {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition: -webkit-transform 5s linear;
+  transition: -webkit-transform 5s linear;
   transition: transform 5s linear;
   -o-transition: transform 5s linear;
   transition: transform 5s linear, -webkit-transform 5s linear;
@@ -1637,7 +1674,9 @@ input[type="number"] {
 .features_list-item {
   padding: 40px 30px 30px;
   border-bottom: 1px solid #e1e1e1;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .features_list-item:last-of-type {
   border-bottom: none;
@@ -1837,6 +1876,8 @@ input[type="number"] {
     max-width: 380px;
     margin: -50px 50px 50px;
     padding: 60px 30px 60px 45px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
   }
   .features_nav .content {
@@ -1854,7 +1895,9 @@ input[type="number"] {
   font-weight: normal;
 }
 .services_list {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   grid-gap: 10px;
 }
@@ -1918,6 +1961,7 @@ input[type="number"] {
     margin-bottom: 30px;
   }
   .services_list {
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
@@ -1927,6 +1971,7 @@ input[type="number"] {
     margin-bottom: 80px;
   }
   .services_list {
+    -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0;
   }
@@ -2036,6 +2081,7 @@ input[type="number"] {
     max-width: 520px;
   }
   .about_block-main .list {
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -2047,6 +2093,7 @@ input[type="number"] {
     height: 450px;
   }
   .about_block-main .list {
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
   .about_block-main .list-item .media {
@@ -2312,7 +2359,9 @@ input[type="number"] {
   width: 100%;
 }
 .pricing {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   grid-gap: 30px;
 }
@@ -2433,6 +2482,7 @@ input[type="number"] {
 }
 @media screen and (min-width: 767.98px) {
   .pricing {
+    -ms-grid-columns: 1fr 40px 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
   }
@@ -2692,6 +2742,7 @@ input[type="number"] {
 }
 @media screen and (min-width: 1199.98px) {
   .pricing {
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
     grid-template-columns: repeat(3, 1fr);
   }
   .footer_main {
@@ -2719,7 +2770,9 @@ input[type="number"] {
     -ms-flex-pack: end;
     justify-content: center;
     margin-right: 110px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer_main-block--nav .list-item {
     margin-bottom: 25px;
@@ -2735,4 +2788,3 @@ input[type="number"] {
     padding: 40px 30px;
   }
 }
-/*# sourceMappingURL=../sourcemaps/index2.css.map */
