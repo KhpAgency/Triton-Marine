@@ -172,8 +172,8 @@
 }
 .frame{
     border: 0;
-    width: 100%;
-    height: inherit;
+    width: 100% !important;
+    height: 400px !important;
 }
 }
 /* media query */
