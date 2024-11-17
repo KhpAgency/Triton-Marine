@@ -1690,8 +1690,8 @@ input[type=number] {
     top: 0;
     left: 0;
     background: url(../img/services/banner-01.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(135deg,rgba(0,0,142,.8) 0,rgba(1,114,128,.8) 100%); */
     z-index: 1
 }
 
